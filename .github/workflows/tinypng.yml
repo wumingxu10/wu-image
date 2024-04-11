@@ -15,4 +15,4 @@ jobs:
       - uses: namoscato/action-tinify@v1
         with:
           api_key: ${{ secrets.API_KEY }}
-          github_token: ${{ secrets.MYGITHUB_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
